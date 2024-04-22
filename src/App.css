@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+.App{
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.header{
+  margin: 0px 20rem;
+  padding: 10px 0;
+}
+.header h1{
+  color: #991F48;
+  font-size: 2.8rem;
+  font-weight: 500;
+  line-height: 16.718px;
+}
+.header p{
+  letter-spacing: 3.5px;
+}
+.navbar{
+  margin: 0px 20rem;
+}
+.navbarlist{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  /* gap: 20px; */
+  align-items: center;
+  background-color: #A4A09C;
+  color: white;
+  text-transform: uppercase;
+  width: 100%;
+  font-weight: 800;
+  height: 40px;
+  padding: 0;
+}
+.navbarlist li{
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+  height: 100%;
+}
+.about:hover, .services:hover, .faq:hover, .contact:hover{
+  background-color: #c64c75;
+}
+.home{
+  background-color: #991F48;
+  width: 20%;
+  height: 100%;
+}
+.mainBody{
+  width: 100%;
+  background-color: #F2F1F0;
+  height: 600px;
+}
+.carouselContainer{
+  margin: 0px 20rem;
+  height: 90%;
+  /* border: 1px solid red; */
+}
+.textBody{
+  width: 100%;
+  height: 250px;
+  background-color: #991F48;
+  text-align: center;
+  padding: 40px 0;
+  color: white;
+}
+.textDetails{
+  margin: 0 40rem;
+}
+.buttons{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin: 40px 0;
+}
+.buttons button{
+  height: 100%;
+  width: 40%;
+  background: transparent;
+  border: 2px solid rgb(255, 255, 255);
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  text-align: center;
+  transition: all .2s;
+}
+.buttons button:hover{
+  background-color: white;
+  color: #991F48;
+}
+.moreInfo{
+  margin: 0 25rem;
+  padding: 20px 0;
+  font-size: 1.1rem;
+  color: gray;
+}
+.heading{
+  color: #991F48;
+}
+.title{
+  color: #991F48;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 20px 0;
+}
+.contactDetails{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 16px;
+}
+.contactDetails p{
+  padding: 0;
+  margin: 0;
+}
+.footer{
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 30px;
+}
+.copyright{
+  width: 100%;
+  background-color: #A4A09C;
+  height: 30px;
+  text-align: center;
+  padding: 10px 0 0 0;
+  font-size: 12px;
+  color: black;
+  margin-bottom: 10px;
+}
+span{
+  color:rgb(62, 62, 229);
+  cursor: pointer;
+}
+.credits{
+  margin-bottom: 10px;
+  font-size: 14px;
+}
